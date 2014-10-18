@@ -6,4 +6,4 @@ Example:
 
     This will create:
         append Gemfile (appends omniauth-OMNIAUTH_NAME to the Gemfile)
-        create config/initializers/omniauth.rb
+        create config/initializers/omniauth.rb	

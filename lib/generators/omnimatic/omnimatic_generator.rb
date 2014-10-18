@@ -6,5 +6,6 @@ class OmnimaticGenerator < Rails::Generators::NamedBase
   def install
     gem "omniauth-#{omniauth}"
     template "omniauth.rb.erb", "config/initializers/omniauth.rb"
+    
   end
 end

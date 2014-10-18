@@ -1,8 +1,9 @@
 Description:
-    Explain the generator
+    Generates code to get up and running with Omniauth
 
 Example:
-    rails generate omnimatic Thing
+    rails generate omnimatic install OMNIAUTH_NAME
 
     This will create:
-        what/will/it/create
+        append Gemfile (appends omniauth-OMNIAUTH_NAME to the Gemfile)
+        create config/initializers/omniauth.rb
